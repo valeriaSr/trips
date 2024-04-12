@@ -3,7 +3,9 @@ Run project:
   in another terminal run the command  docker exec -i -t php /bin/bash to get inside of the php container
   execute the command php bin/console doctrine:migrations:migrate
   Go to localhost and test the project!
-Technical and Design desiciones
+
+  
+Technical and Design decisions:
   I decided to use symfony framework because has many utils to create a crud aplication, also a web aplication
   I decided to not use rect neither vue.js because i was running out of time
   I try to use Live components for the dynamic form but i couldn't make it work completely.
